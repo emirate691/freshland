@@ -1,0 +1,273 @@
+body {
+  width: 99%;
+}
+
+/* Center website */
+.main {
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 2px -6px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 13.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #8dbf39;
+  color: white;
+}
+.app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.atyourbusiness.com/blog/wp-content/uploads/2020/05/proservices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 630px;
+  background-blend-mode: overlay;
+}
+#first-section {
+  padding-top: 200px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+}
+#first-section headh2 {
+}
+#btns {
+  background: #8dbf39;
+  height: 50px;
+  color: white;
+}
+#btn-2 {
+  width: 35%;
+  background: #8dbf39;
+  color: white;
+  margin-top: 15px;
+}
+.head-1 h2 {
+}
+.middle {
+  padding-top: 90px;
+  height: 700px;
+  background: lightgray;
+  margin-top: 200px;
+}
+.note {
+  color: #8dbf39;
+}
+
+h3 {
+  color: black;
+}
+.third-content {
+  background: #348c31;
+  height: 1000px;
+}
+.third-content h2 {
+  padding: 60px;
+}
+.third-content-sub {
+  font-size: 10px;
+  margin-top: 0;
+}
+p {
+  color: black;
+  font-size: 14px;
+  font-weight: 200;
+
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  width: 90%;
+  margin-top: 0;
+}
+.last-section {
+  background: lightgray;
+  height: 900px;
+  margin-top: 100px;
+}
+.last-section h2 {
+  color: black;
+}
+.last-section h3 {
+  color: black;
+  padding-top: 35px;
+}
+#third-content-img {
+  border-radius: 100%;
+  height: 130px;
+  width: 130px;
+  border: 3px solid #8dbf39;
+}
+#gallery-container {
+  padding: 30px;
+}
+
+#gallery-btn {
+  padding-left: 3px;
+}
+#gallery-img {
+  height: 120px;
+  width: 200px;
+}
+#lines {
+  margin-left: 135px;
+  margin-top: 0;
+  padding: 0;
+
+  background-color: #8dbf39;
+  width: 11%;
+  font-weight: bold;
+  height: 3px;
+  border-radius: 20px solid;
+}
+#line-1 {
+  background: white;
+  width: 11%;
+  margin-left: 500px;
+  margin-top: 0;
+  padding: 0;
+  font-weight: bold;
+  height: 3px;
+  border-radius: 20px solid;
+}
+.middle p {
+  color: black;
+  line-height: 20px;
+}
+.third-content p {
+  color: white;
+  text-align: start;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.third-content h5 {
+  text-align: start;
+  margin-top: 15px;
+}
+.navbar-brand {
+  color: white;
+}
+#line-2 {
+  margin-left: 500px;
+  margin-top: 0;
+  padding: 0;
+
+  background-color: #8dbf39;
+  width: 11%;
+  font-weight: bold;
+  height: 3px;
+  border-radius: 20px solid;
+}
+.contact {
+  background-color: #8dbf39;
+  padding-top: 150px;
+  height: 570px;
+}
+li {
+  list-style-type: none;
+  text-align: start;
+  padding-top: 5px;
+}
+.contact h3 {
+  text-align: start;
+  margin-left: 35px;
+  color: white;
+}
+.list-detail {
+  text-align: start;
+  padding: 10px;
+}
+#footer {
+  padding-left: 40px;
+}
+#author,
+#email,
+#phone {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+#text {
+  margin-top: 20px;
+  width: 53%;
+}
+#name,
+#address,
+#number,
+#message {
+  margin-left: 10px;
+}
+.footer-line {
+  background: lightslategray;
+}
+form {
+  width: 100%;
+  height: 300px;
+}
+.form-detail {
+  padding-top: 20px;
+}
+#submit {
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 20px;
+  background: white;
+  border: 1px solid white;
+}
